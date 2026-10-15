@@ -1,0 +1,21 @@
+{
+  "name": "print-farm-scheduler",
+  "version": "0.1.0",
+  "description": "Goal-set scheduling for a small 3D print farm: plates, one queue, per-printer lines, staffed windows and a colour day plan.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./adapters/bambuddy": "./adapters/bambuddy.mjs"
+  },
+  "files": ["src", "adapters", "examples", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "simulate": "node examples/simulate.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": ["3d-printing", "print-farm", "scheduling", "bambu", "planner"],
+  "license": "MIT"
+}

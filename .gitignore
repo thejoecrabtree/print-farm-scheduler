@@ -1,0 +1,18 @@
+# Node
+node_modules/
+npm-debug.log*
+coverage/
+*.tgz
+
+# Local env: keys and endpoints live in the environment, never in the repo
+.env
+.env.*
+
+# Run outputs
+out/
+*.log
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
